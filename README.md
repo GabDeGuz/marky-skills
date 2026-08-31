@@ -4,32 +4,96 @@ A structured, production-ready repository aggregating all AI agent skills, workf
 
 ## 📊 Repository Overview
 
-- **Total Curated Skills**: `172`
-- **Categories**: `9`
+- **Total Categories**: `10` (including curated `must-have` starter kit)
+- **Curated Core Skills**: `18` essential full-stack skills
 - **Compatible Environments**: Google Antigravity, Cursor, Claude Code, GitHub Copilot, OpenAI Codex, and OpenCode Agent.
 
 ---
 
-## 🗂️ Categories & Structure
+## ⭐ MUST HAVE Skills (Full-Stack Starter Kit)
+> The essential starter kit for any web project — covering frontend UI/UX, backend APIs, database optimization, deployment, CI/CD safety, and engineering standards.
+
+| Domain | Skill Name | Path | Description |
+| :--- | :--- | :--- | :--- |
+| **Frontend** | **`frontend-developer`** | [frontend-developer](./must-have/frontend-developer/SKILL.md) | React component architecture, state management, and responsive layouts. |
+| **Frontend** | **`vercel-react-best-practices`** | [vercel-react-best-practices](./must-have/vercel-react-best-practices/SKILL.md) | React and Next.js performance optimization guidelines from Vercel Engineering. |
+| **Frontend** | **`impeccable`** | [impeccable](./must-have/impeccable/SKILL.md) | Anti-slop UI design, typography scales, micro-interactions, and visual craftsmanship. |
+| **Frontend** | **`responsive-web-design`** | [responsive-web-design](./must-have/responsive-web-design/SKILL.md) | Responsive layouts for phone, tablet, and desktop viewports. |
+| **Frontend** | **`ui-styling`** | [ui-styling](./must-have/ui-styling/SKILL.md) | Accessible UI components with Tailwind CSS & Shadcn/Radix UI patterns. |
+| **Frontend** | **`web-design-guidelines`** | [web-design-guidelines](./must-have/web-design-guidelines/SKILL.md) | Web interface accessibility (a11y), UX compliance audits, and standards. |
+| **Backend** | **`backend-architect`** | [backend-architect](./must-have/backend-architect/SKILL.md) | RESTful APIs, microservice boundaries, database schemas, and scalability. |
+| **Backend** | **`database-optimizer`** | [database-optimizer](./must-have/database-optimizer/SKILL.md) | SQL query tuning, indexing strategies, N+1 query elimination, and caching. |
+| **Backend** | **`security-auditor`** | [security-auditor](./must-have/security-auditor/SKILL.md) | OWASP compliance, JWT/OAuth2 authentication, CORS, CSP, and encryption. |
+| **DevOps & CI/CD** | **`setup-pre-commit`** | [setup-pre-commit](./must-have/setup-pre-commit/SKILL.md) | Husky pre-commit hooks, lint-staged, Prettier, type checking, and test automation. |
+| **DevOps & CI/CD** | **`git-guardrails-claude-code`** | [git-guardrails-claude-code](./must-have/git-guardrails-claude-code/SKILL.md) | Safety interceptor blocking destructive git operations (reset --hard, push -f). |
+| **DevOps & CI/CD** | **`resolving-merge-conflicts`** | [resolving-merge-conflicts](./must-have/resolving-merge-conflicts/SKILL.md) | Systematic conflict resolution workflows for in-progress merges and rebases. |
+| **DevOps & CI/CD** | **`permissioned-github`** | [permissioned-github](./must-have/permissioned-github/SKILL.md) | Safe GitHub branch protection, pull request workflows, and automation. |
+| **Engineering Standards** | **`andrej-karpathy-skill`** | [andrej-karpathy-skill](./must-have/andrej-karpathy-skill/SKILL.md) | Minimal surgical edits, surfacing assumptions, avoiding overengineering, verifiable tests. |
+| **Engineering Standards** | **`code-reviewer`** | [code-reviewer](./must-have/code-reviewer/SKILL.md) | Proactive code review enforcing codebase standards, security, and clean architecture. |
+| **Engineering Standards** | **`diagnosing-bugs`** | [diagnosing-bugs](./must-have/diagnosing-bugs/SKILL.md) | Hypothesis-driven debugging loop for complex runtime bugs and regressions. |
+| **Engineering Standards** | **`best-practices`** | [best-practices](./must-have/best-practices/SKILL.md) | Context management, structured prompting patterns, and AI quality assurance. |
+| **Engineering Standards** | **`tdd`** | [tdd](./must-have/tdd/SKILL.md) | Test-driven development (red-green-refactor) for dependable business logic. |
+
+### ⚡ Quick Equip Starter Kit
+To equip all 18 **Must-Have** skills into any new project workspace in one command:
+
+**PowerShell (Windows):**
+```powershell
+# Copy all must-have skills into active workspace
+Copy-Item -Recurse -Force "C:\Users\Nitro V15\Documents\GitHub\marky-skills\must-have\*" ".agents\skills\"
+```
+
+**Bash / Linux / macOS:**
+```bash
+mkdir -p .agents/skills
+cp -r ~/Documents/GitHub/marky-skills/must-have/* .agents/skills/
+```
+
+---
+
+## 🗂️ All Categories & Structure
 
 | Category | Skills Count | Description |
 | :--- | :---: | :--- |
-| [**Frontend & UI/UX Development**](#frontend) | `11` | Modern React, Next.js, responsive layouts, web styling, design intelligence & accessibility guidelines. |
-| [**Backend, Database & MCP Architecture**](#backend) | `4` | RESTful API design, PostgreSQL/SQL optimizations, security auditing, and Model Context Protocol configurations. |
-| [**Mobile (Expo/React Native) & Desktop (Tauri)**](#mobile-and-desktop) | `76` | Comprehensive mobile architecture for Expo and React Native alongside Tauri desktop cross-platform apps. |
-| [**DevOps, Git Safety & CI/CD**](#devops-and-git) | `6` | Git guardrails, merge conflict handling, pre-commit pipelines, GitHub permissions & PR management. |
-| [**Architecture, Code Quality & Testing**](#architecture-and-code-quality) | `16` | Karpathy-inspired guidelines, deep module design, code reviews, TDD, diagnostics, and domain modeling. |
-| [**AI & Agentic Workflows**](#ai-and-agentic-workflows) | `34` | Agent orchestration, plan grilling, session handoffs, Matt Pocock TypeScript workflows, subagents & skill authoring. |
-| [**Design, Branding & Presentations**](#design-and-creative) | `5` | Corporate visual identity, multi-platform banner design, slide creation, and design token architectures. |
-| [**Project Domain & Logistics Patterns**](#project-domain-logistics) | `6` | Logistics FMS modules, expandable nav sidebars, CRUD patterns, RBAC permissions, and HR form patterns. |
-| [**Productivity, Knowledge & Writing**](#productivity-and-writing) | `14` | Obsidian vault management, technical writing structures, ubiquitous vocabulary, and environment utilities. |
+| [**⭐ Must-Have Core Stack**](#must-have) | `18` | Essential starter kit for full-stack web, APIs, deployment & testing. |
+| [**Frontend & UI/UX**](#frontend) | `11` | Modern React, Next.js, responsive layouts, web styling, design intelligence & accessibility guidelines. |
+| [**Backend, Database & MCP**](#backend) | `4` | RESTful API design, PostgreSQL/SQL optimizations, security auditing, and MCP configurations. |
+| [**Mobile & Desktop**](#mobile-and-desktop) | `76` | Comprehensive Expo / React Native mobile architecture alongside Tauri desktop cross-platform apps. |
+| [**DevOps & Git**](#devops-and-git) | `6` | Git safety guardrails, merge conflict handling, pre-commit pipelines, GitHub permissions. |
+| [**Architecture & Code Quality**](#architecture-and-code-quality) | `16` | Karpathy-inspired guidelines, deep module design, code reviews, TDD, diagnostics. |
+| [**AI & Agentic Workflows**](#ai-and-agentic-workflows) | `34` | Agent orchestration, plan grilling, session handoffs, Matt Pocock TypeScript workflows, subagents. |
+| [**Design & Creative**](#design-and-creative) | `5` | Corporate visual identity, multi-platform banner design, slide creation, and design tokens. |
+| [**Project Domain & Logistics**](#project-domain-logistics) | `6` | Logistics FMS modules, expandable nav sidebars, CRUD patterns, RBAC permissions, and HR forms. |
+| [**Productivity & Writing**](#productivity-and-writing) | `14` | Obsidian vault management, technical writing structures, ubiquitous vocabulary, and utilities. |
 
 ---
 
 ## 📖 Full Skills Catalog
 
+### <a id="must-have"></a>⭐ Must-Have Core Stack (`18` skills)
+
+| Skill Name | Path | Description |
+| :--- | :--- | :--- |
+| **`andrej-karpathy-skill`** | [andrej-karpathy-skill](./must-have/andrej-karpathy-skill/SKILL.md) | Apply Andrej Karpathy-inspired coding-agent guidelines in Codex. Use when writing, reviewing, debugging, or refactori... |
+| **`backend-architect`** | [backend-architect](./must-have/backend-architect/SKILL.md) | Design RESTful APIs, microservice boundaries, and database schemas. Reviews system architecture for scalability and p... |
+| **`best-practices`** | [best-practices](./must-have/best-practices/SKILL.md) | Comprehensive guide and best practices for agentic coding, context management, prompt patterns, and quality assurance... |
+| **`code-reviewer`** | [code-reviewer](./must-have/code-reviewer/SKILL.md) | Expert code review specialist. Proactively reviews code for quality, security, and maintainability. Use immediately a... |
+| **`database-optimizer`** | [database-optimizer](./must-have/database-optimizer/SKILL.md) | Optimize SQL queries, design efficient indexes, and handle database migrations. Solves N+1 problems, slow queries, an... |
+| **`diagnosing-bugs`** | [diagnosing-bugs](./must-have/diagnosing-bugs/SKILL.md) | Diagnosis loop for hard bugs and performance regressions. Use when the user says "diagnose"/"debug this", or reports ... |
+| **`frontend-developer`** | [frontend-developer](./must-have/frontend-developer/SKILL.md) | Build React components, implement responsive layouts, and handle client-side state management. Optimizes frontend per... |
+| **`git-guardrails-claude-code`** | [git-guardrails-claude-code](./must-have/git-guardrails-claude-code/SKILL.md) | Set up Claude Code hooks to block dangerous git commands (push, reset --hard, clean, branch -D, etc.) before they exe... |
+| **`impeccable`** | [impeccable](./must-have/impeccable/SKILL.md) | Use when the user wants to design, redesign, shape, critique, audit, polish, clarify, distill, harden, optimize, adap... |
+| **`permissioned-github`** | [permissioned-github](./must-have/permissioned-github/SKILL.md) | Guidelines for interacting with GitHub and request permissions from the user when commands fail due to restrictions i... |
+| **`resolving-merge-conflicts`** | [resolving-merge-conflicts](./must-have/resolving-merge-conflicts/SKILL.md) | Use when you need to resolve an in-progress git merge/rebase conflict. |
+| **`responsive-web-design`** | [responsive-web-design](./must-have/responsive-web-design/SKILL.md) | Use this skill whenever implementing, auditing, or fixing responsive layouts for this React + Vite + TypeScript + Tai... |
+| **`security-auditor`** | [security-auditor](./must-have/security-auditor/SKILL.md) | Review code for vulnerabilities, implement secure authentication, and ensure OWASP compliance. Handles JWT, OAuth2, C... |
+| **`setup-pre-commit`** | [setup-pre-commit](./must-have/setup-pre-commit/SKILL.md) | Set up Husky pre-commit hooks with lint-staged (Prettier), type checking, and tests in the current repo. Use when use... |
+| **`tdd`** | [tdd](./must-have/tdd/SKILL.md) | Test-driven development. Use when the user wants to build features or fix bugs test-first, mentions "red-green-refact... |
+| **`ui-styling`** | [ui-styling](./must-have/ui-styling/SKILL.md) | Create beautiful, accessible user interfaces with shadcn/ui components (built on Radix UI + Tailwind), Tailwind CSS u... |
+| **`vercel-react-best-practices`** | [vercel-react-best-practices](./must-have/vercel-react-best-practices/SKILL.md) | React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing... |
+| **`web-design-guidelines`** | [web-design-guidelines](./must-have/web-design-guidelines/SKILL.md) | Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "aud... |
+
 ### <a id="frontend"></a>📂 Frontend & UI/UX Development (`11` skills)
-> Modern React, Next.js, responsive layouts, web styling, design intelligence & accessibility guidelines.
 
 | Skill Name | Path | Description |
 | :--- | :--- | :--- |
@@ -46,7 +110,6 @@ A structured, production-ready repository aggregating all AI agent skills, workf
 | **`web-design-guidelines`** | [web-design-guidelines](./frontend/web-design-guidelines/SKILL.md) | Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "aud... |
 
 ### <a id="backend"></a>📂 Backend, Database & MCP Architecture (`4` skills)
-> RESTful API design, PostgreSQL/SQL optimizations, security auditing, and Model Context Protocol configurations.
 
 | Skill Name | Path | Description |
 | :--- | :--- | :--- |
@@ -56,7 +119,6 @@ A structured, production-ready repository aggregating all AI agent skills, workf
 | **`security-auditor`** | [security-auditor](./backend/security-auditor/SKILL.md) | Review code for vulnerabilities, implement secure authentication, and ensure OWASP compliance. Handles JWT, OAuth2, C... |
 
 ### <a id="mobile-and-desktop"></a>📂 Mobile (Expo/React Native) & Desktop (Tauri) (`76` skills)
-> Comprehensive mobile architecture for Expo and React Native alongside Tauri desktop cross-platform apps.
 
 | Skill Name | Path | Description |
 | :--- | :--- | :--- |
@@ -138,7 +200,6 @@ A structured, production-ready repository aggregating all AI agent skills, workf
 | **`tauri-window`** | [tauri-window](./mobile-and-desktop/tauri-window/SKILL.md) | Guidance for Tauri v2 window creation, configuration, lifecycle management, and custom titlebar UI. |
 
 ### <a id="devops-and-git"></a>📂 DevOps, Git Safety & CI/CD (`6` skills)
-> Git guardrails, merge conflict handling, pre-commit pipelines, GitHub permissions & PR management.
 
 | Skill Name | Path | Description |
 | :--- | :--- | :--- |
@@ -150,7 +211,6 @@ A structured, production-ready repository aggregating all AI agent skills, workf
 | **`split-to-prs`** | [split-to-prs](./devops-and-git/split-to-prs/SKILL.md) | >- |
 
 ### <a id="architecture-and-code-quality"></a>📂 Architecture, Code Quality & Testing (`16` skills)
-> Karpathy-inspired guidelines, deep module design, code reviews, TDD, diagnostics, and domain modeling.
 
 | Skill Name | Path | Description |
 | :--- | :--- | :--- |
@@ -172,13 +232,12 @@ A structured, production-ready repository aggregating all AI agent skills, workf
 | **`tdd`** | [tdd](./architecture-and-code-quality/tdd/SKILL.md) | Test-driven development. Use when the user wants to build features or fix bugs test-first, mentions "red-green-refact... |
 
 ### <a id="ai-and-agentic-workflows"></a>📂 AI & Agentic Workflows (`34` skills)
-> Agent orchestration, plan grilling, session handoffs, Matt Pocock TypeScript workflows, subagents & skill authoring.
 
 | Skill Name | Path | Description |
 | :--- | :--- | :--- |
 | **`agentic-best-practices`** | [agentic-best-practices](./ai-and-agentic-workflows/agentic-best-practices/SKILL.md) | Comprehensive guide to effective AI-assisted development using structured rules, context management, and proven workf... |
 | **`agy-customizations`** | [agy-customizations](./ai-and-agentic-workflows/agy-customizations/SKILL.md) | >- |
-| **`antigravity-guide`** | [antigravity_guide](./ai-and-agentic-workflows/antigravity_guide/SKILL.md) | Provides a comprehensive guide, quick reference, and sitemap for Google Antigravity (AGY), including the Antigravity ... |
+| **`antigravity_guide`** | [antigravity_guide](./ai-and-agentic-workflows/antigravity_guide/SKILL.md) | Provides a comprehensive guide, quick reference, and sitemap for Google Antigravity (AGY), including the Antigravity ... |
 | **`ask-matt`** | [ask-matt](./ai-and-agentic-workflows/ask-matt/SKILL.md) | Ask which skill or flow fits your situation. A router over the skills in this repo. |
 | **`automate`** | [automate](./ai-and-agentic-workflows/automate/SKILL.md) | Use this skill to create Cursor Automations. |
 | **`babysit`** | [babysit](./ai-and-agentic-workflows/babysit/SKILL.md) | >- |
@@ -212,7 +271,6 @@ A structured, production-ready repository aggregating all AI agent skills, workf
 | **`wizard`** | [wizard](./ai-and-agentic-workflows/wizard/SKILL.md) | Generate an interactive bash wizard that walks a human through a manual procedure — third-party setup, a one-off migr... |
 
 ### <a id="design-and-creative"></a>📂 Design, Branding & Presentations (`5` skills)
-> Corporate visual identity, multi-platform banner design, slide creation, and design token architectures.
 
 | Skill Name | Path | Description |
 | :--- | :--- | :--- |
@@ -223,7 +281,6 @@ A structured, production-ready repository aggregating all AI agent skills, workf
 | **`slides`** | [slides](./design-and-creative/slides/SKILL.md) | Create strategic HTML presentations with Chart.js, design tokens, responsive layouts, copywriting formulas, and conte... |
 
 ### <a id="project-domain-logistics"></a>📂 Project Domain & Logistics Patterns (`6` skills)
-> Logistics FMS modules, expandable nav sidebars, CRUD patterns, RBAC permissions, and HR form patterns.
 
 | Skill Name | Path | Description |
 | :--- | :--- | :--- |
@@ -235,7 +292,6 @@ A structured, production-ready repository aggregating all AI agent skills, workf
 | **`rbac-system-implementation`** | [rbac-system-implementation](./project-domain-logistics/rbac-system-implementation/SKILL.md) | Complete pattern for implementing Role-Based Access Control with permission matrices, stores, hooks, guards, and admi... |
 
 ### <a id="productivity-and-writing"></a>📂 Productivity, Knowledge & Writing (`14` skills)
-> Obsidian vault management, technical writing structures, ubiquitous vocabulary, and environment utilities.
 
 | Skill Name | Path | Description |
 | :--- | :--- | :--- |
