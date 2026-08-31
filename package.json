@@ -1,0 +1,37 @@
+{
+  "name": "marky-skills",
+  "version": "1.0.0",
+  "description": "Curated collection of AI agent skills, architectural patterns, and development workflows.",
+  "main": "lib/installer.js",
+  "bin": {
+    "marky-skills": "./bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "must-have",
+    "frontend",
+    "backend",
+    "mobile-and-desktop",
+    "devops-and-git",
+    "architecture-and-code-quality",
+    "ai-and-agentic-workflows",
+    "design-and-creative",
+    "project-domain-logistics",
+    "productivity-and-writing",
+    "README.md"
+  ],
+  "keywords": [
+    "ai",
+    "skills",
+    "antigravity",
+    "cursor",
+    "claude-code",
+    "copilot",
+    "frontend",
+    "backend",
+    "devops"
+  ],
+  "author": "Marky",
+  "license": "MIT"
+}
